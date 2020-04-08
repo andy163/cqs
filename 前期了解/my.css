@@ -1,0 +1,36 @@
+p {
+   
+    font-size: 14px;
+  }
+
+  .title {
+    color: purple;
+    font-size: 50px;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fonts{
+    font-size: 80px;
+    color: blue;
+  }
+  #cqs1{
+    font-size: 100px;
+  }
+  .red1{
+    color: red;
+  }
+  .blue1{
+    color: blue;
+  }
+  .xians{
+    direction: rtl;
+    writing-mode:vertical-rl;
+    height: 10px; 
+    width: 100vw;
+    margin-right: 0px;
+  }
