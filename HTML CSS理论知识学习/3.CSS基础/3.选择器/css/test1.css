@@ -1,0 +1,107 @@
+/* *{
+    color: red;
+} */
+/* 选中所有具有href属性的元素
+ [href]{
+    color: red;
+} 
+
+[href="https://www.sina.com"]{
+    color: red;
+}
+
+ [href="https://baidu.com"]{
+    color: #008c8c;
+} */
+
+/* 选中所有以"baidu.com"为结尾的元素
+[href$="baidu.com"]{
+    color: #008c8c;
+} */
+
+/* 选中带有"b"的元素 
+
+[class~="b"]{
+    color:green ;
+} 
+
+ [class*="b"]{
+    color:green ;
+} */
+
+
+/*选中鼠标悬停时的a元素 
+a:hover{
+    color:pink;
+}*/
+
+
+/* 选中鼠标按下时的a元素 
+a:active{
+    color: indigo;
+}*/
+
+
+/*超链接未访问的状态  */
+/* a:link{
+    color:red;
+} */
+
+
+/* 超链接访问过的状态 */
+/* a:visited{
+    color:grey;
+} */
+/* 
+span::before{
+    content: "《";
+    color:red;
+}
+
+span::after{
+    content: "》";
+    color:red; 
+}*/
+
+/* p{
+    text-indent: 2em;
+    line-height: 2;
+}
+
+p.red{
+    color:red;
+}
+
+.red li{
+    color:#008c8c;
+} */
+
+/* .abc .bcd{
+    color:red;
+} */
+/* 
+div li{
+    color: red;
+}
+
+div>ul>li{
+    color:green;
+}
+
+div>ul li{
+    color:blue;
+} */
+
+.special{
+    color:red;
+}
+
+.special+li{
+    color:#008c8c;
+}
+
+.special~li,p{
+    color:#008c00;
+}
+
+
