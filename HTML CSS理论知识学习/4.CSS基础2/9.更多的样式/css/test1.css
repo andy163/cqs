@@ -1,0 +1,11 @@
+/* div{
+    width: 1000px;
+    height: 300px;
+    border: 2px solid;
+    background-image: url("../imgs/main1.jpg");
+} */
+
+body{
+    background-image: url("../imgs/main6.jpg");
+    background-repeat: no-repeat;
+}

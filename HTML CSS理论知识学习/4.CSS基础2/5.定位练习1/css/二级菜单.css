@@ -9,6 +9,7 @@
     color: #999;
     height: 40px;
     line-height: 40px;
+    /* 相对视口固定不动，并撑满视口 */
     position: fixed;
     width: 100%;
     left: 0;
@@ -60,6 +61,5 @@
     background: red;
     bottom: -1px;
     left: 0;
-   
     background-color:white;
 }
