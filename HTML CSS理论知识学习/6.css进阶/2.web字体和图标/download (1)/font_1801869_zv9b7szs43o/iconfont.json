@@ -1,0 +1,30 @@
+{
+  "id": "1801869",
+  "name": "我的项目（test1）",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1370277",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "7994944",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "10829919",
+      "name": "地图",
+      "font_class": "tubiaozhizuomoban",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}
