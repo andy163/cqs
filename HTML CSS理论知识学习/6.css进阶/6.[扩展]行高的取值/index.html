@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=a, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            /* 行高为字体大小的2倍 */
+            /* 先计算像素值，然后在继承 */
+           /* line-height:2em; */
+
+           
+           /* 行高为当前元素字体大小的两倍 */
+           /* 先继承，再计算 */
+           line-height: 2;
+        }
+
+        .p1{
+            font-size: 40px;
+        }
+
+        .p2{
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p class="p1">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nulla sunt assumenda omnis dicta
+            harum nesciunt fugit minus numquam, architecto atque eos, repellat quod, sapiente ut fugiat libero officia
+            fuga?
+        </p>
+
+        <p class="p2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quisquam reiciendis, sunt delectus ad at
+            similique sequi, hic eius dolores quam commodi numquam facilis? Numquam cum reiciendis ea nam possimus?
+        </p>
+    </div>
+</body>
+
+</html>
